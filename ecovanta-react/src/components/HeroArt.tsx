@@ -1,0 +1,8 @@
+export default function HeroArt() {
+  return (
+    <svg className="art" viewBox="0 0 460 420" role="img" aria-label="Illustration: a kitchen pot, a used cooking oil drum, a fuel droplet, a leaf and an energy bolt in a circular loop"><circle cx="230" cy="215" r="185" fill="none" stroke="#c9e24b" strokeOpacity=".35" strokeWidth="2" strokeDasharray="4 10"/><g className="rot"><path d="M230 30a185 185 0 0 1 160 92" fill="none" stroke="#c9e24b" strokeWidth="5" strokeLinecap="round"/><path d="M382 108l14 16-22 4z" fill="#c9e24b"/><path d="M230 400a185 185 0 0 1-160-92" fill="none" stroke="#1fa971" strokeWidth="5" strokeLinecap="round"/><path d="M78 322l-14-16 22-4z" fill="#1fa971"/></g>
+<rect x="165" y="180" width="130" height="170" rx="16" fill="#12805a"/><path d="M165 215h130M165 315h130" stroke="#0b3d2e" strokeWidth="6"/><ellipse cx="230" cy="180" rx="65" ry="14" fill="#1fa971"/><text x="230" y="272" textAnchor="middle" fontSize="30" fontWeight="800" fill="#c9e24b">UCO</text>
+<path d="M230 78c-22 32-34 46-34 66a34 34 0 0 0 68 0c0-20-12-34-34-66z" fill="#c9e24b"/><path d="M60 332h70v40a10 10 0 0 1-10 10H70a10 10 0 0 1-10-10z" fill="#f3f6ee"/><rect x="52" y="322" width="86" height="10" rx="5" fill="#cfd8cf"/><path d="M80 304c-6-10 6-14 0-24M106 304c-6-10 6-14 0-24" stroke="#f3f6ee" strokeOpacity=".5" strokeWidth="3" fill="none" strokeLinecap="round"/>
+<path d="M340 240c40-20 70 0 76 40-40 14-72-2-76-40z" fill="#1fa971"/><path d="M342 242c20 10 44 22 70 36" stroke="#0b3d2e" strokeWidth="3" fill="none"/><path d="M360 120l-26 44h20l-10 36 36-52h-22l12-28z" fill="#c9e24b"/></svg>
+  );
+}
