@@ -40,7 +40,7 @@ export default function ContactForm() {
     : setGeoErr(true);
 
   const blur = (e: FocusEvent<HTMLFormElement>) => {
-    const t = e.target as HTMLInputElement, f = FIELDS.find(x => x.id === t.id);
+    const t = e.target as unknown as HTMLInputElement, f = FIELDS.find(x => x.id === t.id);
     if (f) setErr(p => ({ ...p, [f.id]: check(f, t.value.trim()) }));
   };
 
