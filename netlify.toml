@@ -1,0 +1,4 @@
+[build]
+  base = "ecovanta-react"
+  command = "npm ci --include=dev && npm run build"
+  publish = "dist"
